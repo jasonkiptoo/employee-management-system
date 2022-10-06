@@ -32,7 +32,7 @@ function HomePage() {
       <NavBar />
 
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Home emp={employee} />} />
         <Route
           exact
           path="/addnewemployee"

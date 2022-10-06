@@ -2,7 +2,11 @@ import React from "react";
 // import "../images/bg.png"
 // const bg = new URL("./src/components/bg.png");
 
-function Home() {
+function Home({ emp }) {
+  const number = emp.length;
+
+  // <h3 key={emp.id}>{emp.length}</h3>));
+
   return (
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
        
@@ -12,7 +16,6 @@ function Home() {
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Welcome to EMS
             </a>
-            
           </li>
         </ul>
       </div>
@@ -26,8 +29,8 @@ function Home() {
                     <img src="https://vignette.wikia.nocookie.net/nationstates/images/2/29/WS_Logo.png/revision/latest?cb=20080507063620" />
                   </div>
                   <div class="col-lg-9 col-md-8 col-sm-8 col-8 fontsty">
-                    <h4>Employees</h4>
-                    <h2>20</h2>
+                    <h4>Registered Employees</h4>
+                    <h4>{number}</h4>
                   </div>
                 </div>
               </div>
@@ -42,7 +45,7 @@ function Home() {
                 </div>
                 <div class="col-lg-9 col-md-8 col-sm-8 col-1 fontsty">
                   <h4>Departments</h4>
-                  <h2>50</h2>
+                  <h2>5</h2>
                 </div>
               </div>
             </div>
