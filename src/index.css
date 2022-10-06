@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background-color: yellowgreen;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-row {
+  margin-left: 30%;
+}
+.form-row button {
+  margin-top: 5%;
+  margin-left: 50%;
+}
+.form-row h2 {
+  text-align: center;
+}
+table table-striped {
+  width: 50%;
+}
+.table table-striped {
+  table-layout: fixed;
+  width: 20px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+.table-design {
+  width: 90%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.navbar-button {
+  padding: 1.825rem;
+  font-family: font-mono;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar-button:hover {
+  background-color: yellowgreen;
+}
+.navbar sticky-top bg-primary {
+  justify-content: space-between;
+}
+
+.inforide {
+  box-shadow: 1px 2px 8px 0px #a78f8f;
+  background-color: rgb(236, 219, 219);
+  border-radius: 10px;
+  height: 125px;
+}
+.rideone {
+  background-color: #6cc785;
+  padding-top: 25px;
+  border-radius: 8px 0px 0px 8px;
+  text-align: center;
+  height: 125px;
+  margin-left: 15px;
+}
+
+.ridethree {
+  background-color: #4ebce5;
+  padding-top: 35px;
+  border-radius: 8px 0px 0px 8px;
+  text-align: center;
+  height: 125px;
+  margin-left: 15px;
+}
+
+.fontsty {
+  margin-right: -15px;
+  margin-bottom: 1px;
+}
+
+.fontsty h2 {
+  color: #6e6e6e;
+  font-size: 35px;
+  margin-top: 15px;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.fontsty h4 {
+  color: #6e6e6e;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 30px;
+}
+.col-lg-3 {
+  padding: 50px;
 }
