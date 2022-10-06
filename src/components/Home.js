@@ -2,8 +2,8 @@ import React from "react";
 // import "../images/bg.png"
 // const bg = new URL("./src/components/bg.png");
 
-function Home({ emp }) {
-  const number = emp.length;
+function Home({ empl }) {
+  const number = empl.length;
 
   // <h3 key={emp.id}>{emp.length}</h3>));
 
