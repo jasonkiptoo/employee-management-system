@@ -4,7 +4,7 @@ function Employee({ employee }) {
   const { id, name, email, birthDate, dept, image, empTerms } = employee;
   return (
     <tr key={id}>
-      <td>{id}</td>
+      <td></td>
       <td>{name}</td>
       <td>{email}</td>
       <td>{birthDate}</td>

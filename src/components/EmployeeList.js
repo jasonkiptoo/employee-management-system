@@ -7,7 +7,7 @@ function EmployeeList({ userList }) {
   ));
   return (
     <div className="table-design">
-      <table className="table table-striped">
+      <table class="table table-striped">
         <tbody>
           <tr>
             <th>

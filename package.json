@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^3.4.1",
+    "bootstrap-icons": "^1.9.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
@@ -42,5 +43,17 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.1.8"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonkiptoo/employee-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonkiptoo/employee-management-system/issues"
+  },
+  "homepage": "https://github.com/jasonkiptoo/employee-management-system#readme"
 }
